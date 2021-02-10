@@ -1,0 +1,34 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "movieApp API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "-t",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongwu-kim/practice6_graphql.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Kim dong wu <alduk7797@naver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongwu-kim/practice6_graphql/issues"
+  },
+  "homepage": "https://github.com/dongwu-kim/practice6_graphql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13"
+  }
+}
